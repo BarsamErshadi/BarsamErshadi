@@ -4,7 +4,22 @@ First-year **Rotman Commerce** student at the **University of Toronto**, interes
 
 📫 **Open to Data, AI and ML internships** · [LinkedIn](https://www.linkedin.com/in/barsam-ershadi/)
 
+## Open source
+
+**15 merged pull requests** to [Roboflow](https://github.com/roboflow)'s computer vision libraries:
+
+- **[supervision](https://github.com/roboflow/supervision/pulls?q=is%3Apr+author%3ABarsamErshadi+is%3Amerged)** (8 merged): oriented-box overlap on OpenCV, COCO polygon export with mask holes, keypoint skeletons and halos, heat maps on grayscale scenes
+- **[RF-DETR](https://github.com/roboflow/rf-detr/pulls?q=is%3Apr+author%3ABarsamErshadi+is%3Amerged)** (6 merged): checkpoint loading, bfloat16 prediction, keypoint metrics, Kornia augmentations
+- **[supervision-js](https://github.com/roboflow/supervision-js/pulls?q=is%3Apr+author%3ABarsamErshadi+is%3Amerged)** (1 merged): mask contour coordinates
+
+[See all merged pull requests →](https://github.com/search?q=author%3ABarsamErshadi+org%3Aroboflow+is%3Apr+is%3Amerged&type=pullrequests)
+
 ## Projects
+
+### [glassbox](https://github.com/BarsamErshadi/glassbox) · [live demo](https://barsamershadi.github.io/glassbox/)
+A deep learning framework built from scratch in NumPy: autograd, CNNs and Transformers in about 1,800 lines of Python. Its CNN reaches 99.37% on MNIST and its small GPT writes Shakespeare, both trained on a laptop CPU, and the live demo shows what happens inside each network as it runs.
+
+`Python` `NumPy` `Deep learning` `JavaScript`
 
 ### [Brawl Map Segmentation](https://github.com/BarsamErshadi/brawl-map-segmentation)
 Synthetic-data pipeline that renders thousands of labelled game maps and trains a YOLO11 segmentation model to find walls and bushes, exported to ONNX. Built on the PylaAI trainer, which I improved and used to train my own model.
